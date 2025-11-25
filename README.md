@@ -125,9 +125,7 @@ Each UI card is its own widget:
 | `ImageCard`   | `FetchImageLoaded`  | Fade-in, shake pulse animation                   |
 
 ---
-
 ## 🎥 Demo Video
 
-<video src="./video.mp4" controls autoplay loop muted style="border-radius:12px; max-width:100%; height:auto;">
-  Your browser does not support the video tag.
-</video>
+A demonstration of the app in action is attached here: [**Demo video**](./video.mp4)
+
