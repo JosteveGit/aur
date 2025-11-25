@@ -36,7 +36,7 @@ lib/
 
 **UI → Provider → Service → Palette Generator → Provider → UI**
 
-```mermaid
+```
 graph LR
 A[User taps 'Another'] --> B[FetchImageProvider]
 B --> C[FetchImageService]
