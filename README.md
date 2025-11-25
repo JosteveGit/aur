@@ -69,7 +69,7 @@ If a URL has been fetched once → bytes are delivered instantly.
 
 ### Why an Isolate?
 
-Computing average pixel color on large images is **CPU heavy**, and doing it on the main isolate would cause UI jank.
+Computing average pixel color on large images is CPU heavy, and doing it on the main isolate would cause UI jank.
 
 ### Workflow
 
@@ -125,7 +125,9 @@ Each UI card is its own widget:
 | `ImageCard`   | `FetchImageLoaded`  | Fade-in, shake pulse animation                   |
 
 ---
+
 ## 🎥 Demo Video
 
-A demonstration of the app in action is attached here: [**Demo video**](./video.mp4)
-
+<video src="./video.mp4" controls autoplay loop muted style="border-radius:12px; max-width:100%; height:auto;">
+  Your browser does not support the video tag.
+</video>
