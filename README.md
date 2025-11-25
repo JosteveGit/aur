@@ -52,11 +52,10 @@ F --> G[Widget rebuilds with new state]
 
 ### 1. FetchImageService
 
-* Calls the API at:
-  `https://november7-730026606190.europe-west1.run.app/image`
+* Calls the API
 * Extracts the returned Unsplash image URL
 * Downloads the image bytes
-* **Caches** previously downloaded images (avoids repeated network calls)
+* Caches previously downloaded images (avoids repeated network calls)
 
 ### 2. Caching
 
